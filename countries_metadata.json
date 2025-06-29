@@ -1,0 +1,76 @@
+{
+  "countries": [
+    {
+      "name": "Ukraine",
+      "status": "current",
+      "start_year": 2022,
+      "end_year": null,
+      "comment": "Ongoing crisis since 2022",
+      "reference": "https://example.com/ukraine-info",
+      "regions": [
+        "Ivano-Frankivska",
+        "Dnipropetrovska",
+        "Donetska"
+      ]
+    },
+    {
+      "name": "Lebanon",
+      "status": "current",
+      "start_year": 2019,
+      "end_year": null,
+      "comment": "Economic and political crisis",
+      "reference": "https://example.com/lebanon-info"
+    },
+    {
+      "name": "Egypt",
+      "status": "current",
+      "start_year": 2013,
+      "end_year": 2016,
+      "comment": "Post-revolution instability",
+      "reference": "https://example.com/egypt-info",
+      "regions": [
+        "Al qahirah"
+      ]
+    },
+    {
+      "name": "Bosnia and Herzegovina",
+      "status": "current",
+      "start_year": 1992,
+      "end_year": 1995,
+      "comment": "Post-conflict recovery",
+      "reference": "https://example.com/bih-info"
+    },
+    {
+      "name": "Lybia",
+      "status": "previous",
+      "start_year": 2011,
+      "end_year": 2014,
+      "comment": "Civil war period",
+      "reference": "https://example.com/libya-info"
+    },
+    {
+      "name": "Kosovo",
+      "status": "previous",
+      "start_year": 1998,
+      "end_year": 2008,
+      "comment": "Post-war recovery phase",
+      "reference": "https://example.com/kosovo-info"
+    },
+    {
+      "name": "Palestine",
+      "status": "previous",
+      "start_year": 2006,
+      "end_year": 2014,
+      "comment": "Various armed conflicts",
+      "reference": "https://example.com/palestine-info"
+    },
+    {
+      "name": "Chechnya",
+      "status": "previous",
+      "start_year": 1994,
+      "end_year": 2009,
+      "comment": "Post-war Russian control",
+      "reference": "https://example.com/chechnya-info"
+    }
+  ]
+}

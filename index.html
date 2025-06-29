@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>NGO Projects Map</title>
+    <link id="favicon" rel="icon" href="img/favicon.ico">
+
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+        integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+        integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@3.3.2/dist/tailwind.min.css" rel="stylesheet">
+
+</head>
+
+<body class="bg-gray-50 p-4">
+
+    <h1 class="text-2xl font-bold mb-4" id="mapTitle">Our Projects Worldwide</h1>
+
+    <div id="map-container" class="map-container">
+        <div id="map" style="height: 500px;"></div>
+
+        <section id="legend" class="legend-map">
+            <div class="legend-map-divs">
+                <div class="legend-color-box red"></div>
+                <span>Active Projects</span>
+            </div>
+
+            <div class="legend-map-divs">
+                <div class="legend-color-box gray"></div>
+                <span>Past Projects</span>
+            </div>
+
+            <button id="resetView" class="reset-button" type="button">Reset</button>
+        </section>
+    </div>
+
+    <script src="js/map.js"></script>
+</body>
+
+</html>
